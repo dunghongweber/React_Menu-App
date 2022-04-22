@@ -1,13 +1,90 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  font-family: 'Quicksand';
+  background-color: #362417;
+  color: #FFFBFF;
+}
+/* ----------styles for NavBar---------- */
+nav{
+  background-color: #04030F;
+}
+.sidenav{
+  background-color: #F1DABF;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* ----------styles for images---------- */
+img {
+  border-radius: 8px;
+  height: 200px;
+  width: 150px;
+}
+
+img.circle{
+  height: 120px;
+  width: 120px;
+}
+.cover-height{
+  height: 550px;
+}
+
+/* ----------styles for headers---------- */
+h6 {
+  font-weight: bolder;
+  font-size: 27px;
+}
+h5.selection{
+  color: #FFFBFF;
+  background-color: #362417;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* ----------styles for Cart/Order---------- */
+strong{
+  font-family: 'Franklin G othic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+.order-item{
+  border-bottom: #362417 3px solid;
+  padding-bottom: 10px;
+}
+
+/* ----------styles for Homepage Cards---------- */
+.card-panel{
+  border-radius: 15px;
+  background-color: #F1DABF;
+}
+.btn {
+  background-color: #04030F;
+}
+.btn:hover{
+  background-color: #f50057;
+}
+
+/* ----------overwrite Materialize CSS Radio Buttons---------- */
+[type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:before,
+[type="radio"].with-gap:checked + span:after {
+  border: 2px solid #362417;
+}
+ 
+[type="radio"]:checked + span:after,
+[type="radio"].with-gap:checked + span:after {
+  background-color: #362417;
+}
+
+.modal{
+  min-height: 400px;
+  max-height: 40%;
+  width: 100%;
+}
+.modal-content{
+  color: #04030F;
+}
+
+.button-group{
+  padding-top: 15px;
+}
+button{
+  margin-right: 10px;
 }

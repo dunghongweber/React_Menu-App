@@ -1,0 +1,8 @@
+<svg width="58" height="56" viewBox="0 0 58 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="pizzamaze">
+<circle id="base-cirle" cx="26" cy="30" r="25" fill="#C9BC8F" fill-opacity="0.5" stroke="#E6D4BA" stroke-width="0.5"/>
+<circle id="yellow-circle" cx="32" cy="26" r="25" fill="#E0C565"/>
+<path id="left-m" d="M18 45.5L21.5 13L33 33" stroke="black" stroke-width="5"/>
+<path id="right-m" d="M47 45.5L43.5 13L32 33" stroke="black" stroke-width="5"/>
+</g>
+</svg>
