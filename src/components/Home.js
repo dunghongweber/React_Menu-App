@@ -32,10 +32,19 @@ const Home = () => {
   ];
 
   const buttonLayout = (
-    <button className="btn btn-small">
+    <motion.button
+      className="btn btn-small"
+      whileHover={{
+        scale: 1.2,
+        transition: {
+          duration: 0.2,
+          repeat: 3,
+        },
+      }}
+    >
       <i className="material-icons right">add_shopping_cart</i>
       Order
-    </button>
+    </motion.button>
   );
 
   const orderButton = (cond) => {
@@ -145,18 +154,7 @@ const Home = () => {
                       <h6>{item.name}</h6> {item.description}
                     </span>
                     <div className="row">
-                      <motion.div
-                        className="col m6 s10"
-                        whileHover={{
-                          scale: 1.2,
-                          transition: {
-                            duration: 0.2,
-                            repeat: 3,
-                          },
-                        }}
-                      >
-                        {orderButton(item.name)}
-                      </motion.div>
+                      <div className="col m6 s12">{orderButton(item.name)}</div>
                       <div className="col m8 s2"></div>
                     </div>
                   </div>
